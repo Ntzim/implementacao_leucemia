@@ -27,7 +27,7 @@ escolha_do_indicadores = st.sidebar.selectbox('Selecione a página que você que
 
 
 #CARREGANDO MODELO
-model = load_model('modelo/cnn_v4.h5')
+model = load_model('cnn_v4.h5')
 
 # CRIANDO FUNÇÃO DE PRE-PROCESSAMENTO DOS DADOS
 def pre_process_image(image):
@@ -131,7 +131,7 @@ def homepage():
     st.title('Radeon Labs - Inovação que salva vidas!')
     st.write('''Bem-vindos ao Radeon Labs, um centro de excelência em pesquisa e inovação no uso de machine learning para a saúde. 
     Nosso foco é desenvolver soluções avançadas para prever a probabilidade de um paciente possuir células cancerígenas, promovendo diagnósticos mais rápidos e precisos.''')
-    st.image('imagens/LOGO PROJETO DS.png')
+    st.image('LOGO PROJETO DS.png')
 
 
 
