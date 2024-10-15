@@ -2,5 +2,5 @@ streamlit
 tensorflow
 Pillow
 numpy
-sckit-learn
+scikit-learn
 opencv-python
