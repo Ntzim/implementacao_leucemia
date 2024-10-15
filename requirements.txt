@@ -1,6 +1,4 @@
 tensorflow
-Pillow
 numpy
-matplotlib
 sckit-learn
 opencv-python
